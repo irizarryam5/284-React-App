@@ -1,5 +1,5 @@
 import React from 'react';
-//renders the stat blocks
+
 export default class Wrapper extends React.Component {
   render() {
     return (
@@ -8,7 +8,7 @@ export default class Wrapper extends React.Component {
   				<div className="statIconBottom red"><div className="statIconTop">
           <img className="profpic" src={require(`./images/profpic.png`)} height="55px"/></div
   				></div>
-  				<br/><h3 className="personLabel">Alex</h3>
+  				<h3 className="personLabel">Alex</h3>
   				<div className="collapser">
   					<hr className="hrLine"/>
   					<h3 className="personLabel">Picks: <span id="pickNo0" className="personData">14</span
@@ -19,7 +19,7 @@ export default class Wrapper extends React.Component {
   				<div className="statIconBottom blue"><div className="statIconTop">
           <img className="profpic" src={require(`./images/profpic.png`)} height="55px"/></div
   				></div>
-  				<br/><h3 className="personLabel">Amanda</h3>
+  				<h3 className="personLabel">Amanda</h3>
   				<div className="collapser">
   					<hr className="hrLine"/>
   					<h3 className="personLabel">Picks: <span id="pickNo1" className="personData">14</span
@@ -30,7 +30,7 @@ export default class Wrapper extends React.Component {
   				<div className="statIconBottom green"><div className="statIconTop">
           <img className="profpic" src={require(`./images/profpic.png`)} height="55px"/></div
   				></div>
-  				<br/><h3 className="personLabel">Antonio</h3>
+  				<h3 className="personLabel">Antonio</h3>
   				<div className="collapser">
   					<hr className="hrLine"/>
   					<h3 className="personLabel">Picks: <span id="pickNo2" className="personData">14</span
@@ -41,7 +41,7 @@ export default class Wrapper extends React.Component {
   				<div className="statIconBottom purple"><div className="statIconTop">
           <img className="profpic" src={require(`./images/profpic.png`)} height="55px"/></div
   				></div>
-  				<br/><h3 className="personLabel">Morgan</h3>
+  				<h3 className="personLabel">Morgan</h3>
   				<div className="collapser">
   					<hr className="hrLine"/>
   					<h3 className="personLabel">Picks: <span id="pickNo3" className="personData">14</span
@@ -52,7 +52,7 @@ export default class Wrapper extends React.Component {
   				<div className="statIconBottom orange"><div className="statIconTop">
           <img className="profpic" src={require(`./images/profpic.png`)} height="55px"/></div
   				></div>
-  				<br/><h3 className="personLabel">Nick</h3>
+  				<h3 className="personLabel">Nick</h3>
   				<div className="collapser">
   					<hr className="hrLine"/>
   					<h3 className="personLabel">Picks: <span id="pickNo4" className="personData">14</span
@@ -63,7 +63,7 @@ export default class Wrapper extends React.Component {
   				<div className="statIconBottom yellow"><div className="statIconTop">
           <img className="profpic" src={require(`./images/profpic.png`)} height="55px"/></div
   				></div>
-  				<br/><h3 className="personLabel">Will</h3>
+  				<h3 className="personLabel">Will</h3>
   				<div className="collapser">
   					<hr className="hrLine"/>
   					<h3 className="personLabel">Picks: <span id="pickNo5" className="personData">14</span

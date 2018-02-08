@@ -1,148 +1,153 @@
 body{
-	margin: 0;
-	font-family: sans-serif;
-	background-color: lightgrey;
-}.marquee{
-	display: block;
-	margin: 0;
-	width: 100%;
-	white-space: nowrap;
-	overflow: visible;
-}.over{
-	background-color: white;
-	border: none;
-	color: black;
-	padding: 15px 0;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 25px;
-	outline: none;
-	width: 12.5%;
-}.tick{
-	width: 20px;
-	height: auto;
-	margin-bottom: 4.5px;
-}.hider{
-	overflow: hidden;
-	margin: 0px 5px 5px 5px;
-}.content{
-	background: white;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	overflow: hidden;
-}.line{
-	fill: none;
-	stroke-width: 4.5px;
-}svg{
-	float: none;
-	display: block;
-	margin: auto;
-}.statBlock{
-	background-color: white;
-	overflow: hidden;
-	height: 230px;
-	margin-bottom: 5px;
-	margin-right: 5px;
-}.wrapper{
-	background-color: lightgrey;
-	overflow: hidden;
-	display: flex;
-	margin-left: 5px;
-	//position: absolute;
-}.statIconBottom{
-	height: 80px;
-	width: 80px;
-	margin: auto;
-	display: block;
-	margin-top: 20px;
-	background-color: blue;
-	border-radius: 40px;
-	overflow: hidden;
-}.statIconTop{
-	height: 70px;
-	width: 70px;
-	margin: auto;
-	display: block;
-	background-color: #ffffff;
-	border-radius: 35px;
-	margin-top: 5px;
-	overflow: hidden;
-}.personLabel{
-	display: block;
-	margin: auto;
-	text-align: center;
-}.hrLine{
-	width: 170px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-color: lightgrey;
-	color: lightgrey;
-	background-color: lightgrey;
-}.banner{
-	margin: 5px;
-	display: block;
-	text-align: center;
-	background-color: white;
-	padding: 10px 0;
-}.grid .tick line{
-	stroke: lightgrey;
-}.red{
-	background-color:#e41a1c;
-}.blue{
-	background-color:#377eb8;
-}.green{
-	background-color:#4daf4a;
-}.purple{
-	background-color:#984ea3;
-}.orange{
-	background-color:#ff7f00;
-}.yellow{
-	background-color:#ffff33;
-}.wrap{
-	position: relative;
-	overflow: auto;
-}.profpic{
-	display: block;
-	width: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 5px;
-}.jiberjaber{
-	text-align: left;
-	max-width: 700px;
-	display: block;
-	margin: auto;
-}.text{
-	text-align: center;
-}a{
-	color: #333;
-	text-decoration: underline;
-}a:hover{
-	color: red;
-}.label-title{
-	text-align: center;
-	margin-top: 10px;
-}.up{
-    content: url('./components/images/gTick.png');
-}.down{
-    content: url('./components/images/rTick.png');
-}#line0{
-	stroke: #e41a1c;
-}#line1{
-	stroke: #377eb8;
-}#line2{
-	stroke: #4daf4a;
-}#line3{
-	stroke: #984ea3;
-}#line4{
-	stroke: #ff7f00;
-}#line5{
-	stroke: #ffff33;
-}footer{
-	text-align: center;
-	margin-top: 10px;
-}
+				margin: 0;
+				font-family: sans-serif;
+				background-color: lightgrey;
+			}.marquee{
+				display: block;
+				margin: 0;
+				width: 100%;
+				white-space: nowrap;
+				overflow: visible;
+			}.over{
+				background-color: white; /*#4cc54c;*/
+				border: none;
+				color: black;
+				padding: 15px 0;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 25px;
+				outline: none;
+				width: 12.5%;
+			}.tick{
+				width: 20px;
+				height: auto;
+				margin-bottom: 4.5px;
+			}.hider{
+				overflow: hidden;
+				margin: 0px 5px 5px 5px;
+			}.content{
+				background: white;
+				margin-left: 5px;
+				margin-right: 5px;
+				margin-bottom: 5px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				overflow: hidden;
+			}.line{
+				fill: none;
+				stroke-width: 4.5px;
+			}svg{
+				float: none;
+				display: block;
+				margin: auto;
+			}.statBlock{
+				background-color: white;
+				overflow: hidden;
+				height: 230px;
+				margin-bottom: 5px;
+				margin-right: 5px;
+			}.wrapper{
+				background-color: lightgrey;
+				overflow: hidden;
+				display: flex;
+				margin-left: 5px;
+				//position: absolute;
+			}.statIconBottom{
+				height: 80px;
+				width: 80px;
+				margin: auto;
+				display: block;
+				margin-top: 20px;
+				background-color: blue;
+				border-radius: 40px;
+				overflow: hidden;
+			}.statIconTop{
+				height: 70px;
+				width: 70px;
+				margin: auto;
+				display: block;
+				background-color: #ffffff;
+				border-radius: 35px;
+				margin-top: 5px;
+				overflow: hidden;
+			}.personLabel{
+				display: block;
+				margin: 12px auto 0 auto;
+				text-align: center;
+				font-size: 1.6rem;
+			}.hrLine{
+				width: 170px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				border-color: lightgrey;
+				color: lightgrey;
+				background-color: lightgrey;
+			}.banner{
+				margin: 5px;
+				display: block;
+				text-align: center;
+				background-color: white;
+				padding: 10px 0;
+			}svg{
+				//background-color: lightgrey;
+			}.grid .tick line{
+				stroke: lightgrey;
+			}.red{
+				background-color:#e41a1c;
+			}.blue{
+				background-color:#377eb8;
+			}.green{
+				background-color:#4daf4a;
+			}.purple{
+				background-color:#984ea3;
+			}.orange{
+				background-color:#ff7f00;
+			}.yellow{
+				background-color:#ffff33;
+			}.wrap{
+				position: relative;
+				overflow: auto;
+			}.profpic{
+				display: block;
+				width: auto;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 5px;
+			}.jiberjaber{
+				text-align: left;
+				max-width: 700px;
+				display: block;
+				margin: auto;
+			}.text{
+				text-align: center;
+			}a{
+				color: #333;
+				text-decoration: underline;
+			}a:hover{
+				color: red;
+			}.label-title{
+				text-align: center;
+				margin-top: 10px;
+  		}.up{
+        content:url('./components/images/gTick.png');
+      }.down{
+        content:url('./components/images/rTick.png');
+      }#line0{
+				stroke: #e41a1c;
+			}#line1{
+				stroke:#377eb8;
+			}#line2{
+				stroke:#4daf4a;
+			}#line3{
+				stroke:#984ea3;
+			}#line4{
+				stroke:#ff7f00;
+			}#line5{
+				stroke:#ffff33;
+			}footer{
+				text-align: center;
+				margin-top: 10px;
+			}footer p{
+				margin-bottom: 8px;
+			}
